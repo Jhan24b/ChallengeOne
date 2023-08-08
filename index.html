@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="files/" alt="" class="logo">
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="one">
+                <textarea name="" id="" cols="30" rows="10" class="texto" placeholder="Ingrese el texto aqui"></textarea>
+                <p class="restriccion">Solo letras minusculas y sin acentos</p>
+                <div class="botones">
+                    <button class="btn btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </div>
+        
+            <div class="two">
+                <textarea name="" id="" cols="20" rows="10" class="encriptado" placeholder="La encriptacion/desencriptacion aparecera aqui"></textarea>
+                <button class="btn btn-copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js/scripts.js"></script>
+</body>
+
+<footer>
+    Autor: Anthony Torres <br>
+    2023 - Desafio Alura <br>
+    Grupo 5
+</footer>
+</html>
