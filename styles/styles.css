@@ -60,7 +60,7 @@ main{
 
 .encriptado{
     border: none;
-    background-image: url("/DesafioEncriptadorAlura/files/looking.png");
+    background-image: url("../files/looking.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50%;
