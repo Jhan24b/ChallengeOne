@@ -119,5 +119,69 @@ footer{
 
 .restriccion {
     color: #495057;
-    font-size:18px;
+    font-size:16px;
+}
+
+/* Tablet */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+    .one{
+        max-width: 960px;
+        box-sizing: border-box;
+        margin: 20px 20px;
+        padding: 20px;
+    }
+
+    .botones{
+        box-sizing: border-box;
+    }
+    .btn-desencriptar, .btn-encriptar{
+        margin-left: 10px;
+        margin-bottom: 16px;
+    }
+
+    .two{
+        padding: 30px 20px;
+    }
+
+    .texto{
+        padding: 30px 0px;
+    }
+
+}
+
+/* Telefono */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px){
+    .wrapper{
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .one{
+        max-width: 440px;
+        box-sizing: border-box;
+        margin: 20px 20px;
+        padding: 20px;
+    }
+
+    .botones{
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-desencriptar, .btn-encriptar{
+        margin-left: 0px;
+        margin-bottom: 16px;
+    }
+
+    .two{
+        padding: 30px 20px;
+    }
+
+    .texto{
+        padding: 30px 0px;
+    }
 }
